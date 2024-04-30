@@ -12,6 +12,7 @@ class ProductController {
     private val products = listOf(
         Product(1, "Product 1"),
         Product(2, "Product 2")
+
     )
 
     @GetMapping
